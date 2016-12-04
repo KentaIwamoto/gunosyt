@@ -2,6 +2,8 @@
 import os
 import sys
 
+#http://eiry.bitbucket.org/mac/tutorial/index.html⇦見ながら進める。
+
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "classifier.settings")
     try:
