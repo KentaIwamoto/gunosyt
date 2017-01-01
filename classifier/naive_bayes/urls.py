@@ -8,6 +8,6 @@ urlpatterns = [
     # url(r'^get/$', views.hello_get_query, name='hello_get_query'), # 追加する
     # url(r'^time/$',views.time, name='time'),
     url(r'^result/$',views.result, name='result'),
-    url(r'^urlform/$',views.urlform, name='urlform'),
+    url(r'^$',views.urlform, name='urlform'),
 
 ]

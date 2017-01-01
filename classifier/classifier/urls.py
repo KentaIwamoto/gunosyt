@@ -18,5 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^naive_bayes/', include('naive_bayes.urls', namespace='naive_bayes')),
+    url(r'^', include('naive_bayes.urls', namespace='naive_bayes')),
 ]

@@ -1,23 +1,25 @@
 <html>
 <head>
-  <title>書き込みフォーム</title>
+  <title>記事分類器</title>
 </head>
 <body>
-  <h1>掲示板 - 書き込みフォーム</h1>
+  <h1>記事urlを入力してください。</h1>
   <form action="" method="get">
   <input id="id" name="url" value="{{ url }}" type="text" />
   <input value="送信" type="submit" />
 </form>
 <p>
-{{ doc }}の推定結果はこちらです。 <br>
-推定カテゴリは→{{ result }}<br>
-スポーツ{{ sport }} <br>
-エンタメ{{ entame }} <br>
-おもしろ{{ funny }} <br>
-国内{{ japan }} <br>
-コラム{{ column }} <br>
-IT・科学{{ it }} <br>
-グルメ{{ food }} <br>
+記事の本文は <br>{{ doc }}<br>です。 <br>
+<br>
+推定カテゴリは→{{ result }}です。<br>
+スポーツの確率{{ sport }} <br>
+エンタメの確率{{ entame }} <br>
+おもしろの確率{{ funny }} <br>
+国内の確率{{ japan }} <br>
+海外の確率{{ overseas }} <br>
+コラムの確率{{ column }} <br>
+IT・科学の確率{{ it }} <br>
+グルメの確率{{ food }} <br>
 </p>
 
 </body>
